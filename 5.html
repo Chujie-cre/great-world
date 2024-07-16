@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄介绍</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(161, 10, 10);
+        }
+        .shell{
+            /* 设置两边阴影 */
+            mask-image: linear-gradient(to right,#0000,#000,#000,#0000);
+            overflow-x: auto;
+            display: flex;
+            /* 设置间距 */
+            gap: 5rem;
+            align-items:start;
+            padding: 70px;
+        }
+        .shell>div{
+            block-size: 320px;
+            background-color: #fff;
+            /* 设置宽高比 */
+            aspect-ratio: 1;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 5px rgba(173, 173, 173, 0.3);
+        }
+        .shell img{
+            height: 100%;
+            width: 100%;
+        }
+
+        /* 设置滚动条的高度 */
+        ::-webkit-scrollbar{
+            height: 16px;
+        }
+        /* 设置滚动条的背景色 */
+        ::-webkit-scrollbar-track{
+            background-color: #f5f5f5;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: rgb(128, 215, 239);
+            border-radius: 10px;
+        }
+
+        .word000{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="shell">
+        <div><img src="11.jpeg" alt=""><strong class="word000">季沧海</strong></div>
+        <div><img src="12.jpg" alt=""><strong class="word000">沈妙</strong></div>
+        <div><img src="13.jpg" alt=""><strong class="word000">殷紫萍</strong></div>
+        <div><img src="15.jpg" alt=""><strong class="word000">魏青</strong></div>
+        <div><img src="16.JPEG" alt=""><strong class="word000">沙男</strong></div>
+        <div><img src="17.jpg" alt=""><strong class="word000">哈迪</strong></div>
+        <div><img src="18.jpeg " alt=""><strong class="word000">胡桃</strong></div>
+        <div><img src="19.jpeg" alt=""><strong class="word000">玉玲珑</strong></div>
+        <div><img src="20.jpg" alt=""><strong class="word000">宁红叶</strong></div>
+        <div><img src="22.jpeg" alt=""><strong class="word000">妖刀姬</strong></div>
+        <div><img src="21.jpeg" alt=""><strong class="word000">顾倾寒</strong></div>
+        <div><img src="23.jpeg" alt=""><strong class="word000">崔三娘</strong></div>
+        <div><img src="24.jpg" alt=""><strong class="word000">胡为</strong></div>
+        <div><img src="25.jpeg" alt=""><strong class="word000">武田</strong></div>
+        <div><img src="8.jpg" alt=""><strong>#</strong></div>
+        <div><img src="9.jpg" alt=""><strong>#</strong></div>
+        <div><img src="24.jpg" alt=""><strong>#</strong></div>
+
+    </div>
+</body>
+
+</html>

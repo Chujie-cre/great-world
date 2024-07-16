@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*顶部广告栏*/
+.header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.header img{
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*导航栏设置*/
+.nav{
+    height: 40px;
+    background-color: brown;
+    /*阴影*/
+    box-shadow: 0 1px 2px #666;
+}
+/*内外边距 及各列表样式为空*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.one{
+    /*使导航栏横着排列*/
+    float: left;
+    /*宽和行高*/
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+.navlist a{
+    /*超链接字体为**色*/
+    color: aliceblue;
+    /*以块来显示*/
+    display: block;
+}
+/*鼠标悬停时颜色*/
+.navlist a:hover{
+    background-color: rgb(155, 13, 20);
+    color: rgb(238, 182, 39);
+}
+/*改变下拉框*/
+.down{
+    background-color: brown;
+    box-shadow: 0 1px 2px #333;
+    display: none;
+    /*变圆角*/
+    border-radius: 6px;
+    /*超出部分隐蔽*/
+    /*overflow: hidden;*/
+    position: absolute;
+    z-index: 2;
+}
+/*使鼠标移动到上面时下拉框显示*/
+.one:hover .down{
+    display: block;
+    z-index: 2;
+}
+.down li{
+    /*每个项目加一条线隔开*/
+    border-top: 1px solid #000000;
+    z-index: 2;
+}
+/*创建导播图架构框架*/
+#pho1{
+    width: 100%;
+    height: 400px;
+    border: 2px solid #999;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+/*设置图片页边距*/
+#pho2{
+    width: 4000px;
+    height: 2000px;
+}
+#pho2 img{
+    width: 800px;
+    height: 400px;
+}
+#pho2 li{
+    float: left;
+}
+.pho3{
+    background-color: #666;
+    width: 30px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    cursor: pointer;
+}
+.pho4{
+    background-color: #666;
+    width: 30px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.two{
+    top: 500px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+}
+.two img{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #7f7f7fc4;
+    border-top: 1px solid #e7e7e7;
+    padding: 10px 0;
+    bottom: 0;
+}

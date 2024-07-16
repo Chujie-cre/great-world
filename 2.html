@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>普攻</title>
+
+    <style>
+
+
+        body {
+            background-color: rgb(237, 184, 115);
+            background-image: url('26.jpg'); /* 背景图片 */
+            background-size: cover; /* 背景图片覆盖整个页面 */
+            background-repeat: no-repeat; /* 背景图片不重复 */
+            background-position: center; /* 背景图片居中 */
+            }
+
+            .video2 {
+            position: relative;
+            width: 100%; /* 或指定宽度 */
+            height: 0;
+            padding-bottom: 35.30%; /* 16:9 宽高比 */
+                }
+ 
+        .video2 video {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            max-width: 100%;
+            height: 70%;
+            object-fit: contain; /* 使视频内容适应容器大小 */
+                       }
+
+        .word001{
+            text-align: center;
+            color: burlywood;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="video2">
+        <video controls autoplay>
+            <source src="2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <hr color="brown" width="90%" align="center">
+
+
+<div class="word001">
+    <h1>
+        白刀详情
+    </h1>
+    <ol>
+
+        <li>可以打出僵直</li>
+        <li>会被蓝顶</li>
+        <li>优先级最低（但僵直时间最长）</li>
+    </ol>
+</div>
+
+
+</body>
+</html>

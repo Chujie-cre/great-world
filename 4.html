@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>振刀</title>
+
+    <style>
+
+        body {
+            background-color: rgb(237, 184, 115);
+            background-image: url('26.jpg'); /* 背景图片 */
+            background-size: cover; /* 背景图片覆盖整个页面 */
+            background-repeat: no-repeat; /* 背景图片不重复 */
+            background-position: center; /* 背景图片居中 */
+            }
+
+        .video3 {
+            position: relative;
+            width: 100%; /* 或指定宽度 */
+            height: 0;
+            padding-bottom: 35.30%; /* 16:9 宽高比 */
+                }
+ 
+        .video3 video {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            max-width: 100%;
+            height: 70%;
+            object-fit: contain; /* 使视频内容适应容器大小 */
+                       }
+
+        .word2{
+            color: bisque;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="video3">
+        <video controls autoplay>
+            <source src="4.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+    <hr color="brown" width="90%" align="center">
+
+    <div class="word2">
+        <li>成功可让对方武器掉落</li>
+        <li>可衔接处决伤害</li>
+        <li>振刀后是金霸体，高于前面两个</li>
+        <li>优先级低于奥义霸体</li>
+        <li>尽量少用</li>
+    </div>
+
+</body>
+</html>
